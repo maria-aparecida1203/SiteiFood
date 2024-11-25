@@ -1,0 +1,118 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #logo-ifood{
+    width: 80px;
+  }
+  
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #cccccc;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .botoes #btn-entrar {
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .botoes #btn-criar-conta {
+    color: #ff0000;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .site-main {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .titulo h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .titulo p {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .funcionalidades {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+  }
+  
+  .secao {
+    width: 30%;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
+
+  #restaurante{
+    background-color: #ce1111;
+  }
+  
+  #mercado{
+    background-color: #95c71f;
+  }
+
+  .secao img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+  }
+  
+  .secao .btn {
+    background-color: #0000004d;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .secao div {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+  }
+
+  .secao h2{
+    color: #ffffff;
+    margin-bottom: 110px;
+  }
+  
